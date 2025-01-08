@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Backup directory
-BACKUP_DIR=/Users/thetoine/Sites/docker-mysql-backups/mysql_backups
+BACKUP_DIR=/Users/CHANGE-ME/docker-mysql-backups/mysql_backups
 DATE=$(date +"%Y-%m-%d_%H-%M-%S")
 
 # Ensure backup directory exists
