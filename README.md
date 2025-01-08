@@ -10,12 +10,6 @@ First, make sure your docker-volume-backup.sh file is executable :
 chmod +x docker-volume-backup.sh
 ```
 
-Edit the full directory of your file location at the begining of the bash script :
-
-```bash
-BACKUP_DIR=/Users/CHANGE-ME/docker-mysql-backups/mysql_backups
-```
-
 Then add an entry to your user's cron :
 
 ```bash

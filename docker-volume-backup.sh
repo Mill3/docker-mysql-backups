@@ -1,7 +1,10 @@
 #!/bin/bash
 
+# get current directory
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
 # Backup directory
-BACKUP_DIR=/Users/CHANGE-ME/docker-mysql-backups/mysql_backups
+BACKUP_DIR=$DIR/mysql_backups
 DATE=$(date +"%Y-%m-%d_%H-%M-%S")
 
 # Ensure backup directory exists
